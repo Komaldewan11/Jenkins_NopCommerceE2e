@@ -36,8 +36,8 @@ public class BaseTest {
         return new CheckOutPage(driver);
     }
 
-//    @AfterMethod
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void tearDown() {
+        driver.quit();
+    }
 }
