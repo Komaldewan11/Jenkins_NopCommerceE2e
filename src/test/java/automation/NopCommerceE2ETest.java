@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class NopCommerceE2E extends BaseTest {
+public class NopCommerceE2ETest extends BaseTest {
 
     @DataProvider(name = "LinkText1")
     public Object[][] getTestData1() {
