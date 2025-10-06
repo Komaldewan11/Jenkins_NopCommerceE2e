@@ -15,21 +15,21 @@ public class NopCommerceE2E extends BaseTest {
     @DataProvider(name = "LinkText1")
     public Object[][] getTestData1() {
         return new Object[][]{
-                {"male", "William", "Park", "testingWilliam@gmail.com", "testing1002"}
+                {"female", "Kent", "Donovan", "testingKent@gmail.com", "testing1006"}
         };
     }
 
     @DataProvider(name = "LinkText2")
     public Object[][] getTestData2() {
         return new Object[][]{
-                {"testingWilliam@gmail.com", "testing1002", "Laptop"}
+                {"testingKent@gmail.com", "testing1006", "Laptop"}
         };
     }
 
     @DataProvider(name = "LinkText3")
     public Object[][] getTestData3() {
         return new Object[][]{
-                {"testingWilliam@gmail.com", "testing1002", "William", "Park", "testingWilliam@gmail.com",
+                {"testingKent@gmail.com", "testing1006", "Kent", "Donovan", "testingKent@gmail.com",
                         "California", "San Jose", "123 Main", "10001", "1234567890"}
         };
     }
